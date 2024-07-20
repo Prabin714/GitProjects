@@ -1,3 +1,6 @@
+Git commands::
+
+
 1. cd Desktop -> The functionality is same as the doble click of the mouse at Desktop folder which means you are currently at Desktop.
 2. dir ->Lists all the files available in the folder. For Linux it is ->ls
 3. mkdir folder name-> creates a new folder.
@@ -24,3 +27,9 @@
 21. git stash ->To be at previous history but the present history is kept as stash values/items.
 22. git stash pop -> To retries the histories from the stash items.
 23. git stash clear -> To clear all the stash items.
+
+Advanced Git commands used in GitHub:
+1. git remote add origin url -> After you create a repository in githun to store you project , you must add the project folder with a url name which is by convention origin for local projects, the remote is for we are storing via a url.
+2. git remote -v -> Show all urls attached to this folder.
+3. git push origin master ->Sharing the changes or history on the url to be shown in the GitHub, the push is adding , the origin is the url name and the master is the main branch where the commits have been added.
+
