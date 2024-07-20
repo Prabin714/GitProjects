@@ -1,0 +1,26 @@
+1. cd Desktop -> The functionality is same as the doble click of the mouse at Desktop folder which means you are currently at Desktop.
+2. dir ->Lists all the files available in the folder. For Linux it is ->ls
+3. mkdir folder name-> creates a new folder.
+4. cls -> clear screen.
+5. git init ->command to initialize the git folder to store history always hidden.
+6. dir /a ->shows all the hidden files and folders. For Linux it is ->dir .a
+7. echo.>"folder/filename.txt" -> To create a new file at a particular folder with the filetype extension. 
+				  Also if you want to create file at current folder/directory remove folder part from command with ""
+				  For Linux it is ->touch filename.txt
+8. del filename -> To delete a file. For Linux it is ->rm -rf filename.
+9. git status -> To see if the changes made are staged or not. If not it is seen in red(not ready to commit) else green(added and ready).
+10. git add filename ->to make the changes in a file ready to commit. For bulk or many files its -> git add .(space+ dot).
+11. git commit -m "message"->to commit a change in a git repository wit a custom message.
+12. git rm --cached<file> -> To unstage any changes.
+13. vim filename -> To edit a document directly in a command prompt.
+14. cd Desktop/Project -> To directly go to Project folder.
+15. type filename -> To view the contents of a file. For Linux it is ->cat filename.
+16. git config --global username/name ->To add email and name separately to the repository for Account ownership. 
+					Omit global if you don't want these details as common for all other repositories.
+17. git restore --staged filename -> To restore the already commited items back to unstaged area.
+18. git restore filename ->To restore or undo actions performed in a file.
+19. git log -> To view the entire commit history.
+20. git reset hash value -> To get back to history.
+21. git stash ->To be at previous history but the present history is kept as stash values/items.
+22. git stash pop -> To retries the histories from the stash items.
+23. git stash clear -> To clear all the stash items.
